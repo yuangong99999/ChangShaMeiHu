@@ -1,0 +1,192 @@
+@charset "utf-8";
+body{
+    margin: 0px;
+}
+.gobal{
+    box-shadow: 1px 1px 5px #888888;
+    font-weight: bold;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.top{
+    color:white;
+    height:600px;
+    width: 100%;
+    background-image: url(../images/关于我们/about_top.jpg);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: relative;
+}
+.top_1{
+    width: 900px;
+    height: 600px;
+    background: #000;
+    opacity: 0.3;
+    z-index: 1;
+}
+.top div:nth-of-type(1){
+    position: absolute;
+    background-image: none;
+    left:47px;
+    margin-top:16px; 
+    z-index: 2;
+}
+.top div:nth-of-type(2){
+    background-image: none;
+    position: absolute;
+    left: 370px;
+    z-index: 2;
+}
+.top div:nth-of-type(2) ul{
+    list-style-type: none;
+}
+.top div:nth-of-type(2) ul li{
+    display: inline;
+    margin-right: 35px;
+}
+.bottom{
+    font-weight: 100;
+    background-color: black;
+    width: 900px;
+    height: 195px;
+    color: white;
+    position: relative;
+}
+.bottom_1{
+    list-style-type: none;
+    position: absolute;
+    left: 100px;
+    top: 35px;
+}
+.bottom_2{
+    list-style-type: none;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+}
+.bottom_3{
+    list-style-type: none;
+    position: absolute;
+    left: 100px;
+    top: 105px;
+}
+.bottom_4{
+    position: absolute;
+    left: 381px;
+    bottom: 4px;
+    font-size: 1px;
+}
+.bottom ul li{
+    display: inline;
+    margin-right: 35px;
+}
+.top_2{
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.topimg_1{
+    width: 137px;
+    height: 90px;
+}
+.topimg_2{
+    width: 90px;
+    height: 90px;
+}
+.topimg_3{
+    width: 114px;
+    height: 107px;
+}
+.top_2 p{
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+.top_2 span{
+    width: 260px;
+    height: 216px;
+    position: absolute;
+}
+.top_2 span:nth-of-type(1){
+    top: 90px;
+    left: 10px;
+}
+.top_2 span:nth-of-type(2){
+    top: 250px;
+}
+.top_2 span:nth-of-type(3){
+    top: 350px;
+    right: 10px;
+}
+.center{
+    position: relative;
+}
+.center_1{
+    position: absolute;
+    left: 30px;
+    top: 22px;
+}
+.center_1 img{
+    width: 36px;
+    vertical-align: middle;
+}
+.center_2{
+    position: absolute;
+    left: 295px;
+    top: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.center_3{
+    text-align: center;
+    padding-top: 220px;
+    font-size: 30px;
+    font-weight: 200;
+}
+.center_3 div{
+    position: relative;
+}
+.center_3 div div:nth-of-type(2){
+    width: 176px;
+    height: 37px;
+    background-color: rgb(198, 224, 226);
+    position: absolute;
+    left: 362px;
+    top: 18px;
+    opacity: 0.5;
+}
+.center_4 img,.center_5 img,.center_6 img,.center_7 img{
+    width: 176px;
+    position: absolute;
+    left: 80px; 
+}
+.center_4{
+    padding-top: 100px;
+}
+.center_4 p,.center_5 p,.center_6 p,.center_7 p{
+    /* position: absolute;
+    left: 300px; */
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 335px;
+    
+}
+.center_4,.center_5,.center_6,.center_7{
+   height: 150px;
+   line-height: 35px;
+}
+.center_7{
+    margin-bottom: 67px;
+}
+.csmh,.name1,.name2,.name3,.name4{
+    color: #eb8532;
+}

@@ -1,0 +1,201 @@
+@charset "utf-8";
+body{
+    margin: 0px;
+}
+.gobal{
+    box-shadow: 1px 1px 5px #888888;
+    font-weight: bold;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.top{
+    color:white;
+    height:600px;
+    width: 100%;
+    background-image: url(../images/整体方案/plans_top.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: relative;
+}
+.top div:nth-of-type(3){
+    width: 900px;
+    height: 600px;
+    background: #000;
+    opacity: 0.3;
+    z-index: 1;
+}
+.top div:nth-of-type(1){
+    position: absolute;
+    background-image: none;
+    left:47px;
+    margin-top:16px; 
+    z-index: 2;
+}
+.top div:nth-of-type(2){
+    background-image: none;
+    position: absolute;
+    left: 370px;
+    z-index: 2;
+}
+.top div:nth-of-type(2) ul{
+    list-style-type: none;
+}
+.top div:nth-of-type(2) ul li{
+    display: inline;
+    margin-right: 35px;
+}
+.bottom{
+    font-weight: 100;
+    background-color: black;
+    width: 900px;
+    height: 195px;
+    color: white;
+    position: relative;
+}
+.bottom_1{
+    list-style-type: none;
+    position: absolute;
+    left: 100px;
+    top: 35px;
+}
+.bottom_2{
+    list-style-type: none;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+}
+.bottom_3{
+    list-style-type: none;
+    position: absolute;
+    left: 100px;
+    top: 105px;
+}
+.bottom_4{
+    position: absolute;
+    left: 381px;
+    bottom: 4px;
+    font-size: 1px;
+}
+.bottom ul li{
+    display: inline;
+    margin-right: 35px;
+}
+.center{
+    position: relative;
+}
+.center_1{
+    position: absolute;
+    left:30px;
+    top: 22px;
+}
+.center_1 img{
+    width: 36px;
+    vertical-align: middle;
+}
+.center_2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.center_2 div{
+    position: relative;
+}
+.center_2 div div:nth-of-type(2){
+    width: 110px;
+    height: 30px;
+    background-color: rgb(198, 224, 226);
+    position: absolute;
+    left: 395px;
+    top: 13px;
+    opacity: 0.5;
+}
+.center_3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.center_3 div:nth-of-type(n){
+    width: 200px;
+    height: 128px;
+    text-align: center;
+    background-color: rgb(125, 188, 218);
+    border-radius: 50%;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+.center_3 div:nth-of-type(n) span{
+    color: rgb(196, 8, 8);
+}
+.center_4{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.center_4 div{
+    position: relative;
+}
+.center_4 div div:nth-of-type(2){
+    width: 110px;
+    height: 30px;
+    background-color: rgb(198, 224, 226);
+    position: absolute;
+    left: 395px;
+    top: 13px;
+    opacity: 0.5;
+}
+.center_5{
+    position: relative;
+    height: 215px;
+    margin-top: 50px;
+}
+.center_5 p{
+    display: inline;
+    font-size: 20px;
+    line-height: 37px;
+    position: absolute;
+    left: 110px;
+    font-weight: 600;
+}
+.center_5 img{
+    position: absolute;
+    right: 60px;
+    top: 10px;
+}
+.center_6 div{
+    width: 750px;
+    height: 135px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 55px;
+    margin-top: 18px;
+}
+.center_6 div div:nth-of-type(n){
+    color: white;
+    width: 170px;
+    height: 110px;
+    background-color: rgb(219, 84, 31);
+    border-radius:50%; 
+    line-height: 110px;
+    font-size: 26px;
+    font-weight: 100;
+}
+.center_7 p{
+    line-height: 50px;
+    font-size: 28px;
+    margin-left: 100px;
+    font-weight: 300;
+}
+.center_8 img{
+    width: 900px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}

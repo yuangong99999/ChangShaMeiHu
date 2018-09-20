@@ -1,0 +1,163 @@
+@charset "utf-8";
+body{
+    margin: 0px;
+}
+.gobal{
+    box-shadow: 1px 1px 5px #888888;
+    font-weight: bold;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.top{
+    color:white;
+    height:600px;
+    width: 100%;
+    background-image: url(../images/联系我们/contact_top.jpg);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: relative;
+}
+.top div:nth-of-type(3){
+    width: 900px;
+    height: 600px;
+    background: #000;
+    opacity: 0.3;
+    z-index: 1;
+}
+.top div:nth-of-type(1){
+    position: absolute;
+    background-image: none;
+    left:47px;
+    margin-top:16px; 
+    z-index: 2;
+}
+.top div:nth-of-type(2){
+    background-image: none;
+    position: absolute;
+    left: 370px;
+    z-index: 2;
+}
+.top div:nth-of-type(2) ul{
+    list-style-type: none;
+}
+.top div:nth-of-type(2) ul li{
+    display: inline;
+    margin-right: 35px;
+}
+.bottom{
+    font-weight: 100;
+    background-color: black;
+    width: 900px;
+    height: 195px;
+    color: white;
+    position: relative;
+}
+.bottom_1{
+    list-style-type: none;
+    position: absolute;
+    left: 100px;
+    top: 35px;
+}
+.bottom_2{
+    list-style-type: none;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+}
+.bottom_3{
+    list-style-type: none;
+    position: absolute;
+    left: 100px;
+    top: 105px;
+}
+.bottom_4{
+    position: absolute;
+    left: 381px;
+    bottom: 4px;
+    font-size: 1px;
+}
+.bottom ul li{
+    display: inline;
+    margin-right: 35px;
+}
+.conMessage{
+    width: 900px;
+    height: 150px;
+    background-color: rgba(184, 189, 190, 0.842);
+    margin-top: 56px;
+    display: flex;
+}
+.center div:nth-child(1){
+    position: relative;
+}
+.center_1{
+    position: absolute;
+    left: 30px;
+    top: 22px;  
+    width: 194px;
+}
+.center div:nth-of-type(1) img{
+    width: 36px;
+    vertical-align: middle;
+}
+.center div:nth-of-type(1) div:nth-of-type(2){
+    width: 220px;
+    height: 45px;
+    margin-right: auto;
+    margin-left:auto;
+    padding-top: 22px;
+}
+ .center div:nth-of-type(1) div:nth-of-type(2) div:nth-of-type(1){
+    margin-right: auto;
+    margin-left:auto;
+    text-align: center;
+} 
+.center div:nth-of-type(1) div:nth-of-type(2) div:nth-of-type(2){
+   background-color: rgb(198, 224, 226);
+   height: 12px;
+   margin-top: -12px;
+} 
+.center .conMessage:nth-child(4) img{
+    width: 123px;
+    height: 120px;
+    align-items: center;
+    margin-left: 260px;
+    margin-right: 75px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.center .conMessage:nth-child(3) img{
+    width: 123px;
+    height: 120px;
+    align-items: center;
+    margin-left: 260px;
+    margin-right: 75px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.center .conMessage:nth-child(2) img{
+    width: 123px;
+    height: 120px;
+    align-items: center;
+    margin-left: 260px;
+    margin-right: 75px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.center .conMessage:nth-child(4){
+    margin-bottom: 350px;
+    font-size: 27px;
+    color: white;
+    font-weight: 100;
+    line-height: 70px;
+}
+.center .conMessage:nth-child(2){
+    font-size: 38px;
+    color: white;
+    font-weight: 100;
+    line-height: 150px;
+}
